@@ -58,7 +58,7 @@ namespace BinaryClock
         {
             Console.WriteLine("Binary Clock");
             Console.WriteLine();
-            Console.WriteLine($"{date.ToString("hh:mm:ss")}");
+            Console.WriteLine($"{date.ToString("HH:mm:ss")}");
             Console.WriteLine();
             Console.Write("Hours: ");
             for(int i = 4;i>=0;i--)
